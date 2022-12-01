@@ -9,8 +9,3 @@ class Day:
 
     def task_2(self):
         pass
-
-
-aoc_day = Day()
-assert aoc_day.task_1() == 1
-assert aoc_day.task_2() == 1
