@@ -4,6 +4,9 @@ class Day:
         with open(file_name, "r") as f:
             self.file_content = list(map(str.strip, f.readlines()))
 
+    def call(self):
+        pass
+
     def task_1(self):
         pass
 
