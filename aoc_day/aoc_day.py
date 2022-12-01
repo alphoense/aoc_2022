@@ -1,9 +1,7 @@
-class Day:
+from helpers.day import Day
 
-    def __init__(self, file_name: str = "test_input.txt"):
-        with open(file_name, "r") as f:
-            self.file_content = list(map(str.strip, f.readlines()))
 
+class Day0(Day):
     def call(self):
         pass
 
@@ -12,3 +10,11 @@ class Day:
 
     def task_2(self):
         pass
+
+aoc_day = Day0()
+
+print(aoc_day.task_1())
+print(aoc_day.task_2())
+
+# assert aoc_day.task_1() == 24000
+# assert aoc_day.task_2() == 45000
