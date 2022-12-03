@@ -11,10 +11,13 @@ class Day0(Day):
     def task_2(self):
         pass
 
+
 aoc_day = Day0()
 
 print(aoc_day.task_1())
 print(aoc_day.task_2())
 
-# assert aoc_day.task_1() == 24000
-# assert aoc_day.task_2() == 45000
+aoc_day_input = Day0("input.txt")
+print(aoc_day_input.task_1())
+
+print(aoc_day_input.task_2())
