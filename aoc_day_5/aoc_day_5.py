@@ -19,7 +19,7 @@ class Day5(Day):
         l = len(all_rows[-1])
         m = [None] * l
         for i in range(l):
-            for j in range(len(all_rows) - 1):
+            for j in range(l):
                 if not m[i]:
                     m[i] = []
                 try:
@@ -65,6 +65,6 @@ aoc_day = Day5()
 print(aoc_day.task_1())
 print(aoc_day.task_2())
 
-aoc_day_input = Day5("input.txt")
-print(aoc_day_input.task_1())
-print(aoc_day_input.task_2())
+# aoc_day_input = Day5("input.txt")
+# print(aoc_day_input.task_1())
+# print(aoc_day_input.task_2())
